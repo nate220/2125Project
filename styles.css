@@ -9,8 +9,8 @@ h1 {
   z-index: 1
 }
 h2{
-  margin-top: 5px;
-  padding-top: 5px;
+  margin: 5px 0px 0px 0px;
+  padding: 5px 0px 0px 0px;
 }
 h3{
   padding: 0px 0px 0px 0px;
@@ -21,6 +21,9 @@ h3{
 }
 .padAll{
   padding: 10px 10px 10px 0px;
+}
+.padComment{
+  display: inline-block;
 }
 .section1{
   height: 140px;
@@ -45,9 +48,27 @@ h3{
 .innertext2{
   text-indent: 45px;
 }
+.innertext3{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 15px 0px;
+  text-indent: 45px;
+  text-align: center;
+}
+.inputFormat{
+  text-align: right;
+  margin-left: -38%
+}
+.box1Size{
+  height: 20px;
+  width: 200px;
+}
+.box2Size{
+  height: 20px;
+  width: 200px;
+}
+
 .address{
   position: relative;
-
 }
 .address p{
   padding-bottom: 0%;
@@ -105,6 +126,17 @@ h3{
 .contactButton:hover, .scheduleButton:hover, .classButton:hover, .homeButton:hover{
   box-shadow: 0 1px 5px 1px #cccccc;
 }
+.inputFormat input{
+  margin: 3px 3px 3px 3px;
+}
+img{
+  width: 80%;
+  height: auto;
+}
+textarea{
+  max-width: 400px;
+  max-height: 400px;
+}
 section{
   margin: 5px 5px 15px 15px;
 }
@@ -133,6 +165,7 @@ table{
 }
 .center{
   text-align: center;
+  align-self: center;
 }
 .clear:before, .clear:after{
   content: "\0020";
@@ -279,9 +312,29 @@ table{
   }
   .innertext{
     text-align: center;
+    text-indent: 0px;
+  }
+  .innertext2{
+    text-align: center;
+    text-indent: 0px;
   }
   .innerbullet{
     text-align: center;
+  }
+  .inputFormat{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  .innertext2{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+  }
+  .pad{
+    padding: 0px 0px 0px 0px;
+  }
+  .noFloat{
+  clear: both;
   }
   h1{
     font-size: 25px;
@@ -297,14 +350,12 @@ table{
   h3{
     text-align: center;
   }
-  .innertext2{
-    text-align: center;
-    padding: 0px 0px 0px 0px;
+  textarea{
+  max-width: 175px;
+  max-height: 300px;
   }
-  .pad{
-    padding: 0px 0px 0px 0px;
+  img{
+  width: 95%;
+  height: auto;
   }
-}
-.noFloat{
-  clear: both;
 }
