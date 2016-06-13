@@ -66,15 +66,18 @@ h3{
   height: 20px;
   width: 200px;
 }
-
 .address{
   position: relative;
+  margin: 0px 0px 15px 0px;
+  padding: 0px 0px 0px 0px;
 }
 .address p{
-  padding-bottom: 0%;
-  padding-right: 0%;
-  padding-top: 0%;
-  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.footerEmail{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 .homepageImage{
   position: relative;
